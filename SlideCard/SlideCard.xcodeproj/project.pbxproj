@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6014C6C1F1DA789001967B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6014C6B1F1DA789001967B0 /* main.m */; };
+		C6014C6F1F1DA789001967B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6014C6E1F1DA789001967B0 /* AppDelegate.m */; };
+		C6014C721F1DA789001967B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6014C711F1DA789001967B0 /* ViewController.m */; };
+		C6014C751F1DA789001967B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6014C731F1DA789001967B0 /* Main.storyboard */; };
+		C6014C771F1DA789001967B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6014C761F1DA789001967B0 /* Assets.xcassets */; };
+		C6014C7A1F1DA789001967B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6014C781F1DA789001967B0 /* LaunchScreen.storyboard */; };
+		C6014C851F1DA789001967B0 /* SlideCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6014C841F1DA789001967B0 /* SlideCardTests.m */; };
+		C6014C901F1DA789001967B0 /* SlideCardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6014C8F1F1DA789001967B0 /* SlideCardUITests.m */; };
+		C6014C9F1F1DA7B2001967B0 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6014C9E1F1DA7B2001967B0 /* CardView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6014C811F1DA789001967B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6014C5F1F1DA789001967B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6014C661F1DA789001967B0;
+			remoteInfo = SlideCard;
+		};
+		C6014C8C1F1DA789001967B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6014C5F1F1DA789001967B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6014C661F1DA789001967B0;
+			remoteInfo = SlideCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6014C671F1DA789001967B0 /* SlideCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6014C6B1F1DA789001967B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6014C6D1F1DA789001967B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C6014C6E1F1DA789001967B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C6014C701F1DA789001967B0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C6014C711F1DA789001967B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C6014C741F1DA789001967B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6014C761F1DA789001967B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6014C791F1DA789001967B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6014C7B1F1DA789001967B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6014C801F1DA789001967B0 /* SlideCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6014C841F1DA789001967B0 /* SlideCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideCardTests.m; sourceTree = "<group>"; };
+		C6014C861F1DA789001967B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6014C8B1F1DA789001967B0 /* SlideCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6014C8F1F1DA789001967B0 /* SlideCardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideCardUITests.m; sourceTree = "<group>"; };
+		C6014C911F1DA789001967B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6014C9D1F1DA7B2001967B0 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		C6014C9E1F1DA7B2001967B0 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6014C641F1DA789001967B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6014C7D1F1DA789001967B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6014C881F1DA789001967B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6014C5E1F1DA789001967B0 = {
+			isa = PBXGroup;
+			children = (
+				C6014C691F1DA789001967B0 /* SlideCard */,
+				C6014C831F1DA789001967B0 /* SlideCardTests */,
+				C6014C8E1F1DA789001967B0 /* SlideCardUITests */,
+				C6014C681F1DA789001967B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6014C681F1DA789001967B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6014C671F1DA789001967B0 /* SlideCard.app */,
+				C6014C801F1DA789001967B0 /* SlideCardTests.xctest */,
+				C6014C8B1F1DA789001967B0 /* SlideCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6014C691F1DA789001967B0 /* SlideCard */ = {
+			isa = PBXGroup;
+			children = (
+				C6014C6D1F1DA789001967B0 /* AppDelegate.h */,
+				C6014C6E1F1DA789001967B0 /* AppDelegate.m */,
+				C6014C701F1DA789001967B0 /* ViewController.h */,
+				C6014C711F1DA789001967B0 /* ViewController.m */,
+				C6014C9D1F1DA7B2001967B0 /* CardView.h */,
+				C6014C9E1F1DA7B2001967B0 /* CardView.m */,
+				C6014C731F1DA789001967B0 /* Main.storyboard */,
+				C6014C761F1DA789001967B0 /* Assets.xcassets */,
+				C6014C781F1DA789001967B0 /* LaunchScreen.storyboard */,
+				C6014C7B1F1DA789001967B0 /* Info.plist */,
+				C6014C6A1F1DA789001967B0 /* Supporting Files */,
+			);
+			path = SlideCard;
+			sourceTree = "<group>";
+		};
+		C6014C6A1F1DA789001967B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6014C6B1F1DA789001967B0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6014C831F1DA789001967B0 /* SlideCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6014C841F1DA789001967B0 /* SlideCardTests.m */,
+				C6014C861F1DA789001967B0 /* Info.plist */,
+			);
+			path = SlideCardTests;
+			sourceTree = "<group>";
+		};
+		C6014C8E1F1DA789001967B0 /* SlideCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6014C8F1F1DA789001967B0 /* SlideCardUITests.m */,
+				C6014C911F1DA789001967B0 /* Info.plist */,
+			);
+			path = SlideCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6014C661F1DA789001967B0 /* SlideCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6014C941F1DA789001967B0 /* Build configuration list for PBXNativeTarget "SlideCard" */;
+			buildPhases = (
+				C6014C631F1DA789001967B0 /* Sources */,
+				C6014C641F1DA789001967B0 /* Frameworks */,
+				C6014C651F1DA789001967B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlideCard;
+			productName = SlideCard;
+			productReference = C6014C671F1DA789001967B0 /* SlideCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6014C7F1F1DA789001967B0 /* SlideCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6014C971F1DA789001967B0 /* Build configuration list for PBXNativeTarget "SlideCardTests" */;
+			buildPhases = (
+				C6014C7C1F1DA789001967B0 /* Sources */,
+				C6014C7D1F1DA789001967B0 /* Frameworks */,
+				C6014C7E1F1DA789001967B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6014C821F1DA789001967B0 /* PBXTargetDependency */,
+			);
+			name = SlideCardTests;
+			productName = SlideCardTests;
+			productReference = C6014C801F1DA789001967B0 /* SlideCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6014C8A1F1DA789001967B0 /* SlideCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6014C9A1F1DA789001967B0 /* Build configuration list for PBXNativeTarget "SlideCardUITests" */;
+			buildPhases = (
+				C6014C871F1DA789001967B0 /* Sources */,
+				C6014C881F1DA789001967B0 /* Frameworks */,
+				C6014C891F1DA789001967B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6014C8D1F1DA789001967B0 /* PBXTargetDependency */,
+			);
+			name = SlideCardUITests;
+			productName = SlideCardUITests;
+			productReference = C6014C8B1F1DA789001967B0 /* SlideCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6014C5F1F1DA789001967B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Maple;
+				TargetAttributes = {
+					C6014C661F1DA789001967B0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8YPZ4VJXJG;
+						ProvisioningStyle = Automatic;
+					};
+					C6014C7F1F1DA789001967B0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8YPZ4VJXJG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C6014C661F1DA789001967B0;
+					};
+					C6014C8A1F1DA789001967B0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8YPZ4VJXJG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C6014C661F1DA789001967B0;
+					};
+				};
+			};
+			buildConfigurationList = C6014C621F1DA789001967B0 /* Build configuration list for PBXProject "SlideCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6014C5E1F1DA789001967B0;
+			productRefGroup = C6014C681F1DA789001967B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6014C661F1DA789001967B0 /* SlideCard */,
+				C6014C7F1F1DA789001967B0 /* SlideCardTests */,
+				C6014C8A1F1DA789001967B0 /* SlideCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6014C651F1DA789001967B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6014C7A1F1DA789001967B0 /* LaunchScreen.storyboard in Resources */,
+				C6014C771F1DA789001967B0 /* Assets.xcassets in Resources */,
+				C6014C751F1DA789001967B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6014C7E1F1DA789001967B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6014C891F1DA789001967B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6014C631F1DA789001967B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6014C721F1DA789001967B0 /* ViewController.m in Sources */,
+				C6014C6F1F1DA789001967B0 /* AppDelegate.m in Sources */,
+				C6014C9F1F1DA7B2001967B0 /* CardView.m in Sources */,
+				C6014C6C1F1DA789001967B0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6014C7C1F1DA789001967B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6014C851F1DA789001967B0 /* SlideCardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6014C871F1DA789001967B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6014C901F1DA789001967B0 /* SlideCardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6014C821F1DA789001967B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6014C661F1DA789001967B0 /* SlideCard */;
+			targetProxy = C6014C811F1DA789001967B0 /* PBXContainerItemProxy */;
+		};
+		C6014C8D1F1DA789001967B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6014C661F1DA789001967B0 /* SlideCard */;
+			targetProxy = C6014C8C1F1DA789001967B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6014C731F1DA789001967B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6014C741F1DA789001967B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6014C781F1DA789001967B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6014C791F1DA789001967B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6014C921F1DA789001967B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C6014C931F1DA789001967B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6014C951F1DA789001967B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8YPZ4VJXJG;
+				INFOPLIST_FILE = SlideCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuangzhanfeng.SlideCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C6014C961F1DA789001967B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8YPZ4VJXJG;
+				INFOPLIST_FILE = SlideCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuangzhanfeng.SlideCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C6014C981F1DA789001967B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8YPZ4VJXJG;
+				INFOPLIST_FILE = SlideCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuangzhanfeng.SlideCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlideCard.app/SlideCard";
+			};
+			name = Debug;
+		};
+		C6014C991F1DA789001967B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8YPZ4VJXJG;
+				INFOPLIST_FILE = SlideCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuangzhanfeng.SlideCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlideCard.app/SlideCard";
+			};
+			name = Release;
+		};
+		C6014C9B1F1DA789001967B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8YPZ4VJXJG;
+				INFOPLIST_FILE = SlideCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuangzhanfeng.SlideCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SlideCard;
+			};
+			name = Debug;
+		};
+		C6014C9C1F1DA789001967B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8YPZ4VJXJG;
+				INFOPLIST_FILE = SlideCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuangzhanfeng.SlideCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SlideCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6014C621F1DA789001967B0 /* Build configuration list for PBXProject "SlideCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6014C921F1DA789001967B0 /* Debug */,
+				C6014C931F1DA789001967B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6014C941F1DA789001967B0 /* Build configuration list for PBXNativeTarget "SlideCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6014C951F1DA789001967B0 /* Debug */,
+				C6014C961F1DA789001967B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C6014C971F1DA789001967B0 /* Build configuration list for PBXNativeTarget "SlideCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6014C981F1DA789001967B0 /* Debug */,
+				C6014C991F1DA789001967B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C6014C9A1F1DA789001967B0 /* Build configuration list for PBXNativeTarget "SlideCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6014C9B1F1DA789001967B0 /* Debug */,
+				C6014C9C1F1DA789001967B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6014C5F1F1DA789001967B0 /* Project object */;
+}
