@@ -34,7 +34,18 @@
  */
 @property (nonatomic, weak) id <CardViewDataSource> dataSource;
 
-@property (nonatomic, assign, readonly) NSInteger currentIndex;
+/**
+ 加载card
+ */
+- (void)loadCard;
+
+/**
+ 返回所有cards
+
+ @return cards
+ */
+- (NSArray *)allCards;
+
 
 @end
 

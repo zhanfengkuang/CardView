@@ -8,13 +8,17 @@
 
 #import "CardView.h"
 
-#define kScrollViewWidth 0
-#define kScrollViewHeight 2
+#define kCardRatio 0.7
+#define kCardWidth CGRectGetWidth(self.frame)
+#define kCardHeight CGRectGetHeight(self.frame)
+#define kScrollViewWidth kCardWidth * kCardRatio
+#define kScrollViewHeight kCardHeight
 
 @interface CardView () <UIScrollViewDelegate>
 @property (nonatomic, strong) UIScrollView *scrollView;
 @property (nonatomic, strong) NSMutableArray *cardsArray;
 @property (nonatomic, assign) NSInteger numberOfCards;
+@property (nonatomic, assign) NSInteger currentIndex;
 @end
 
 @implementation CardView
@@ -32,9 +36,9 @@
     _scrollView = [[UIScrollView alloc] initWithFrame:self.bounds];
     _scrollView.delegate = self;
     _scrollView.showsVerticalScrollIndicator = NO;
+    _scrollView.showsHorizontalScrollIndicator = NO;
     _scrollView.pagingEnabled = YES;
     _scrollView.backgroundColor = [UIColor blueColor];
-    _scrollView.contentInset = UIEdgeInsetsMake(20, 20, 20, 20);
     [self addSubview:_scrollView];
 }
 
@@ -42,7 +46,9 @@
     for (UIView *card in _cardsArray) {
         [card removeFromSuperview];
     }
-    _numberOfCards = [_dataSource numberOfCards];
+    if ([_dataSource respondsToSelector:@selector(numberOfCards)]) {
+        _numberOfCards = [_dataSource numberOfCards];
+    }
     if (_numberOfCards == 0) {
         return;
     }
@@ -55,6 +61,7 @@
             card.center = CGPointMake(kScrollViewWidth * i + kScrollViewWidth / 2, kScrollViewHeight / 2);
             card.backgroundColor = [UIColor redColor];
             card.tag = i;
+            [_cardsArray addObject:card];
             [_scrollView addSubview:card];
         }
     }
@@ -66,6 +73,15 @@
 
 - (NSInteger)currentIndex {
     return _scrollView.contentOffset.x / kScrollViewWidth;
+}
+
+- (NSArray *)allCards {
+    return _cardsArray;
+}
+
+#pragma mark - UIScrollViewDelegate
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    
 }
 
 @end
